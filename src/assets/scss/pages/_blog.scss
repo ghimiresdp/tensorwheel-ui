@@ -1,0 +1,78 @@
+
+.blog-container{
+  h1{
+    font-size: 48px;
+    color: $primary;
+    font-weight: bold;
+  }
+
+}
+.blog-post, .ql-editor {
+  font-size: 1.1rem;
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary !important;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  section {
+    border-top: 1px $gray-300 solid;
+    padding: 1em 0 1em 0;
+  }
+
+  .section-header {
+    font-size: 0.8em;
+    color: $dark !important;
+    text-transform: uppercase;
+    margin: 1em 0 1em 0;
+  }
+}
+
+.blog-cover {
+  position: relative;
+  min-height: 75vh !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--fullscreen {
+    min-height: 100vh !important;
+  }
+
+  &--small {
+    min-height: 50vh !important;
+  }
+
+  .blog-cover-overlay {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: fade_out($black, 0.3);
+  }
+
+  span {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    color: $light !important;
+
+    h1, h3, h4 {
+      color: $light !important;
+    }
+  }
+}

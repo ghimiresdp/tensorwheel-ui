@@ -1,0 +1,114 @@
+// Custom Dropdown Styling
+
+.dropdown {
+  .dropdown-menu {
+    font-size: $dropdown-font-size;
+
+    .dropdown-header {
+      @extend .text-uppercase;
+      font-weight: 800;
+      font-size: 0.65rem;
+      color: $gray-500;
+    }
+  }
+
+}
+
+.add-section {
+  min-height: 7rem;
+  border: dashed $secondary 2px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .section-btn {
+    border-radius: 0.5rem;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    width: 6rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+}
+.editor-sidebar {
+  top: $topbar-base-height;
+  bottom: 0;
+  overflow-y: auto;
+  position: absolute;
+  background: $light;
+  color: $dark;
+  padding: 5px;
+
+  &--left {
+    left: 0;
+    width: 20%;
+  }
+
+  &--right {
+    right: 0;
+    width: 30%;
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+  }
+
+  .section-preview-list {
+    //width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    //height: 2rem;
+
+    .section-controls {
+      position: absolute;
+      right: 0;
+      display: none;
+    }
+
+    &:hover {
+      background-color: $light;
+
+      .section-controls {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.utility-bar {
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #88888888;
+  position: fixed;
+  width: 65px;
+  height: 60vh;
+  z-index: 1;
+  left: -40px;
+  top: 20vh;
+  transition-property: left;
+  transition-duration: 0.5s;
+
+  &:hover {
+    left: 0px;
+  }
+
+}
+
+.btn-rounded{
+  border-radius: 3rem;
+}

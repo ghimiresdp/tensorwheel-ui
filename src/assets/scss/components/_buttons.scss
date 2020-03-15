@@ -1,0 +1,39 @@
+.btn {
+  &-primary-gradient {
+    background: $primary-gradient;
+    border: none;
+    color: white !important;
+
+    &:hover {
+      background: $primary-gradient-hover;
+    }
+  }
+
+  &-google {
+    @include button-variant($brand-google, $white);
+  }
+
+  &-facebook {
+    @include button-variant($brand-facebook, $white);
+  }
+
+  &-linkedin {
+    @include button-variant($brand-linkedin, $white);
+  }
+
+}
+
+button {
+  &.no-outline {
+    background: transparent;
+    border: 0;
+    outline: 0 !important;
+
+    &:focus {
+      outline: 0 !important;
+    }
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

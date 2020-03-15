@@ -1,0 +1,73 @@
+//_________________________Colors_____________________
+// Brand Colors
+$brand-google: #ea4335;
+$brand-facebook: #3b5998;
+$brand-linkedin: #0e76a8;
+
+// Custom Colors
+$primary-50: #ede0f9;
+$primary-100: #d1b3f0;
+$primary-200: #b380e7;
+$primary-300: #944ddd;
+$primary-400: #7d26d5;
+$primary-500: #6600ce;
+$primary-600: #5e00c9;
+$primary-700: #5300c2;
+$primary-800: #4900bc;
+$primary-900: #3800b0;
+$primary-a100: #e3daff;
+$primary-a200: #bca7ff;
+$primary-a400: #9574ff;
+$primary-a700: #825aff;
+
+$primary-dark: $primary-900;
+$primary-light: #2080e0;
+$primary: #6600ce;
+$secondary: #ce3400;
+$danger: #ce0066;
+$warning: #ce9b00;
+$success: #66ce00;
+$login-gradient: linear-gradient(90deg, $primary, $primary-light) !default;
+$primary-gradient: linear-gradient(90deg, $primary, $primary-light) !default;
+$primary-gradient-hover: linear-gradient(90deg, $primary-dark, $primary) !default;
+
+
+//
+//$themes: (
+//  light: (
+//    light: $light,
+//    muted: $muted,
+//    dark: $dark,
+//    white: $white,
+//    gray-50: $gray-50,
+//    gray-100:$gray-100,
+//    gray-200:$gray-200,
+//    gray-300:$gray-300,
+//    gray-400:$gray-400,
+//    gray-500:$gray-500,
+//    gray-600:$gray-600,
+//    gray-700:$gray-700,
+//    gray-800:$gray-800,
+//    gray-900:$gray-900,
+//    gray: $gray-500,
+//    black: $black,
+//  ),
+//  dark: (
+//    white: $black,
+//    black: $white,
+//    light: $dark,
+//    muted: #38333d,
+//    dark: $light,
+//    gray-50: $gray-900,
+//    gray-100:$gray-800,
+//    gray-200:$gray-700,
+//    gray-300:$gray-600,
+//    gray-400:$gray-500,
+//    gray-500:$gray-400,
+//    gray-600:$gray-300,
+//    gray-700:$gray-200,
+//    gray-800:$gray-100,
+//    gray-900:$gray-50,
+//    gray: $gray-500
+//  )
+//);

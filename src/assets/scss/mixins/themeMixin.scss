@@ -1,0 +1,8 @@
+// (c) primedatafactory.com
+@mixin theme-aware-component($key, $color) {
+  @each $theme-name, $theme-color in $themes {
+    .theme-#{theme-name} & {
+      #{$key}: map_get(map_get($themes, $theme-name), $theme-color)
+    }
+  }
+}

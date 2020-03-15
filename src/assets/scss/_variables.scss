@@ -1,0 +1,74 @@
+@import "themes/colors";
+@import "themes/themes";
+
+//Contrast Threshold
+$yiq-contrasted-threshold: 195;
+
+//Typography
+$font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-weight: 400;
+$font-weight-light: 300 !default;
+$font-weight-headings: 500 !default;
+
+//shadows
+$box-shadow: 0 0.15rem 1.75rem 0 rgba($dark, .15) !default;
+$box-shadow-lg: 0 1rem 3rem rgba($dark, .175) !default;
+$box-shadow-sm: 0 0.125rem 0.25rem 0 rgba($dark, .2) !default;
+
+//borders
+$border-radius: 0.35rem !default;
+$border-color: darken($light, 2%);
+
+//Navigation
+$topbar-base-height: 50px;
+$sidebar-base-width: 14rem;
+$sidebar-collapsed-width: 6.5rem;
+
+//extra features
+$enable-shadows: true;
+$enable-gradients: true;
+
+
+//Cards
+$card-cap-bg: $light;
+$card-border-color: $border-color;
+
+// Adjust column spacing for symmetry
+$spacer: 1rem;
+$grid-gutter-width: $spacer * 1.5;
+
+// Transitions
+$transition-collapse: height .15s ease !default;
+
+// Dropdowns
+$dropdown-font-size: 0.85rem;
+$dropdown-border-color: $border-color;
+
+
+// Components -> Card Post
+$blog-card-padding-x: 1.56rem !default;
+$blog-card-padding-y: 1.56rem !default;
+$blog-card-padding: $blog-card-padding-y $blog-card-padding-x !default;
+
+$blog-card-image-min-height: 10.31rem !default;
+
+$blog-card-author-avatar-width: 2.81rem !default; // 45px
+$blog-card-author-avatar-height: 2.81rem !default; // 45px
+$blog-card-author-avatar-small-width: 2.18rem !default; // 35px
+$blog-card-author-avatar-small-height: 2.18rem !default; // 35px
+$blog-card-author-avatar-box-shadow: 0 0 0 0.125rem $white, 0 0.1875rem 0.437rem $light !default;
+
+
+// Components -> Card Post -> Variation 1
+$blog-card-v1-author-transform: translateY(50%) !default;
+$blog-card-v1-author-margin-left: 1.5625rem !default; // 25px
+$blog-card-v1-category-top: 0.9375rem !default; // 15px
+$blog-card-v1-category-right: 0.9375rem !default; // 15px
+$blog-card-v1-body-padding-top: 2.1875rem !default; // 35px
+
+$blog-card-aside-v1-body-padding: $blog-card-padding !default;
+$blog-card-aside-v1-author-left: 0.9375rem !default; // 15px
+$blog-card-aside-v1-author-bottom: 0.9375rem !default; // 15px
+$blog-card-aside-v1-category-top: 0.9375rem !default; // 15px
+$blog-card-aside-v1-category-left: 0.9375rem !default; // 15px
+
